@@ -1,0 +1,218 @@
+/*---------------------
+     creer un poste
+----------------------*/
+.nouveau-post{
+    position: fixed;
+    top: 100px;
+    right: 30px;
+}
+
+.nouveau-post button{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.nouveau-post textarea{
+    font-size: 25px;
+    resize: none;
+}
+
+.nouveau-pos .submit-btn{
+    width: 100%;
+    margin: auto;
+}
+
+
+/*---------------------
+    postes deja creer
+----------------------*/
+
+.posts-section{
+    width: 65%
+
+
+}
+.posts{
+    width: 70%;
+    margin: auto;
+
+}
+
+.post{
+    color: white;
+    background-color: #272441;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.post .contenu{
+    font-size: 26px;
+}
+
+.post .date{
+
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.post .pseudo{
+    color: rgb(162, 164, 180);
+}
+
+/*---------------------
+    pour le profil
+----------------------*/
+.profil{
+    background-color:#272441 ;
+    width: 80%;
+    margin:40px auto;
+    display: flex;
+    color: white;
+
+}
+.profil .image{
+    flex: 1;
+    width: 200px;
+    border-radius: 10%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.profil .image img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.presentation{
+    flex:4;
+    margin: 10px;
+}
+.presentation .titre h3{
+    font-size: 25px;
+    font-family: Florence ;
+    text-align: right;
+    width: 800px;
+
+
+}
+.presentation .titre h5{
+    font-size: 18px;
+    font-family: Comic Sans MS;
+    text-align: right;
+    width: 750px;
+
+
+}
+.presentation .titre p{
+    color: rgb(162, 164, 180);
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    width: 820px;
+
+}
+.presentation .stats{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.stat p{
+    font-size: 26px;
+}
+
+.follow-btn, .unfollow-btn{
+    float: right;
+    margin-top: 30px;
+}
+.follow-btn-container button{
+
+    font-size: 18px;
+    padding: 8px;
+    color: white;
+}
+
+.follow-btn {
+    background-color: teal;
+}
+
+.unfollow-btn {
+    background-color: rgb(114, 5, 32);
+}
+.categorie{
+    text-align: center;
+    background-color: #272441 ;
+    font-size: 20px;
+}
+/*---------------------
+    pour recherche
+----------------------*/
+.research{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.recherche-resultats{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pseudo-div{
+    padding: 10px;
+    background-color: rgb(22, 22, 58);
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+}
+.pseudo-div a:hover{
+    color: rgb(106, 106, 179);
+}
+/*------------
+      pour la page index
+      ----------------------*/
+.indo{
+  background-image: url(https://lecahier.com/wp-content/uploads/2019/03/photo-1530698060343-ae5da1a26d7f-1024x683.jpg);
+}
+.deco h1{
+  font-size: 60px;
+  font-family:cursive;
+  text-align: center;
+  color: white ;
+}
+#sContent{
+
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  color:white;
+}
+hr{
+  margin-top: 20px;
+}
+.conn{
+  margin-top: 18px;
+  padding: 10px;
+  text-align: center;
+}
+.conn input{
+  color: white;
+  background-color: black;
+}
+/*---------------------
+    pour   l admin
+----------------------*/
+.myadmin{
+   
+    background-color: rgb(172, 176, 192);
+    color: black;
+    font-size: 10px;
+
+}

@@ -1,0 +1,154 @@
+h1{
+    color:black;
+    display: inline-block;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:rgb(172, 176, 192);
+  font-family: Calibri,sans-serif;
+}
+.bar {
+  height: 68px;
+  line-height: 68px;
+  color: #fff;
+  background-color: #262626;
+  box-shadow: 0 0 15px #000;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+}
+.bar h1 {
+  color: white;
+}
+.bar nav a {
+  text-align: left;
+  font-size: 1.1em;
+  padding: 24px 10px;
+  font-weight: 700;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.bar nav a:hover {
+  background-color: #dddddd;
+  color:black;
+  font-size: 150%;
+}
+.link, a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bloc {
+  margin-top: 20px;
+  box-shadow: 0 0 15px #000;
+}
+.bloc1 {
+  padding: 5px;
+  background-color: #272441;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  color: white;
+}
+.bloc1 h1{
+  margin: 5px 5px 11px;
+  padding: 10px;
+  font-size: 1.3em;
+  background-color: #202020;
+  border-radius: 3px;
+  word-wrap: break-word;
+  color: white;
+  width: 99%;
+}
+section{
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.colm {
+  padding: 5px;
+}
+.col-1-3 {
+  width: 15%;
+}
+.col-4-12{
+  width: 85%;
+}
+.col-8-12{
+  width: 5%;
+}
+.col-12 {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.n {
+  padding: 5px 10px;
+  margin: 0 0 5px;
+  
+}
+main{
+  height:70vh;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+hr{
+    color:orange;
+}
+.form-groupe{
+  margin-left: 40%;
+ 
+}
+input{
+    margin-left: 6px;
+    color: black;
+
+}
+label{
+    font-size: 16px;
+
+    text-overflow: ellipsis;
+    color:black;
+}
+.follow {
+  float: right;
+  position: absolute;
+  right: 50px;
+  top: 22px;
+}
+
+footer{
+  background-color: black;
+  height: 10vh;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  }
+.erreur{
+  color: red;
+}
+.titre{
+  text-align: center
+}
+.text{
+  resize: none;
+  background-color: #6b7daf;
+}
